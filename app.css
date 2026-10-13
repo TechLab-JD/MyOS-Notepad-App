@@ -1,0 +1,8 @@
+.np-wrap { display: flex; flex-direction: column; height: 100%; gap: 6px; }
+#np-text {
+  flex: 1; width: 100%; box-sizing: border-box; resize: none;
+  border: 1px solid var(--muted-bg, #444); border-radius: 8px;
+  background: var(--surface, #1e1e1e); color: var(--text, #eee);
+  font: 14px/1.5 ui-monospace, "Cascadia Code", monospace; padding: 10px;
+}
+.np-status { display: flex; justify-content: space-between; font-size: 0.72rem; opacity: 0.65; }
